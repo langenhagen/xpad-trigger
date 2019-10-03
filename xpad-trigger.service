@@ -1,0 +1,9 @@
+[Unit]
+Description=My, andreasl's, xpad-trigger systemd service.
+
+[Service]
+Type=simple
+ExecStart=/bin/bash /usr/local/bin/xpad-trigger.sh
+
+[Install]
+WantedBy=multi-user.target
